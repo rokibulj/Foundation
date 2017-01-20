@@ -30,7 +30,7 @@ public class ReadProperties {
 
 	private Properties loadProperties(String fileName) {
 		Properties prop = new Properties();
-		String filePath = ".src/main/resources/properties/" + fileName + ".properties";
+		String filePath = "./src/main/resources/properties/" + fileName + ".properties";
 		try {
 			File file = new File(filePath);
 			FileInputStream fileStream = new FileInputStream(file);
